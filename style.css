@@ -1,7 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    border: 2px solid red;
+}
+
 .container {
- background-image: url("img/signup-bg.jpg");
- height: 100vh;
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+    background-image: url("img/signup-bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+    height: 100vh;
+}
+
+.forum-title-box {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 10px;
+}
+
+.heart-logo {
+    min-width: 30%;
+}
+
+.title {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 1.8rem;
+    -webkit-text-stroke: black 1.3px;
+    text-align: center;
 }
