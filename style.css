@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
 
 * {
     border: 2px solid red;
 }
 
 .container {
+    display: flex;
     background-image: url("img/signup-bg.jpg");
     height: 100vh;
     background-position: center;
@@ -17,7 +19,7 @@
     justify-content: center;
     align-items: center;
 
-    width: 30%;
+    min-width: 30%;
     height: 100vh;
 }
 
@@ -38,4 +40,10 @@
     font-size: 1.8rem;
     -webkit-text-stroke: black 1.3px;
     text-align: center;
+}
+
+.info {
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-size: 1.5rem;
 }
